@@ -1,0 +1,19 @@
+# advent-of-code-2025
+Let's try to do the advent of code 2025 in Java 25
+
+Like [last year](https://github.com/forax/advent-of-code-2024) and
+[the year before](https://github.com/forax/advent-of-code-2023).
+
+I will only do the first part of each challenge in the hope it will not take too much time.
+I will try to write the solution in "Beautiful Java" and a code golfing solution :)
+
+Each puzzle is contained in one file, by example for the day 1, you can just run
+```bash
+java src/main/java/AdventOfCode01.java
+```
+
+- [Day  1](https://adventofcode.com/2025/day/1) [AdventOfCode01.java](src/main/java/AdventOfCode01.java) [AdventOfCode01Golf.java](src/main/java/AdventOfCode01Golf.java)
+
+Each code will be published the day after.
+
+Enjoy
