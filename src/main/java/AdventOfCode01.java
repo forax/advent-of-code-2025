@@ -32,5 +32,5 @@ void main() {
       count++;
     }
   }
-  System.out.println(count);
+  IO.println(count);
 }
