@@ -19,7 +19,8 @@ java src/main/java/AdventOfCode01.java
 - [Day  5](https://adventofcode.com/2025/day/5) [AdventOfCode05.java](src/main/java/AdventOfCode05.java) [AdventOfCode05Golf.java](src/main/java/AdventOfCode05Golf.java) [AdventOfCode05OneLine.java](src/main/java/AdventOfCode05OneLine.java)
 - [Day  6](https://adventofcode.com/2025/day/6) [AdventOfCode06.java](src/main/java/AdventOfCode06.java) [AdventOfCode06Golf.java](src/main/java/AdventOfCode06Golf.java)
 - [Day  7](https://adventofcode.com/2025/day/7) [AdventOfCode07.java](src/main/java/AdventOfCode07.java) [AdventOfCode07Golf.java](src/main/java/AdventOfCode07Golf.java) [AdventOfCode07Golf2.java](src/main/java/AdventOfCode07Golf2.java)
- 
+- [Day  8](https://adventofcode.com/2025/day/8) [AdventOfCode07.java](src/main/java/AdventOfCode08.java) 
+
 Each code will be published the day after.
 
 Enjoy
