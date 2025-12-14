@@ -133,7 +133,7 @@ void main() {
       .lines()
       .filter(l -> !l.isEmpty() && !l.endsWith(":"))
       .gather(Gatherers.windowFixed(3))
-      .map(Shape::create)
+      .map(lines -> Shape.create(lines).allRotations())
       .toList();
   var regions = input.substring(separation + 2)
       .lines()
@@ -142,7 +142,6 @@ void main() {
           Grid.create(array[0], array[1]),
           IntStream.range(0, shapes.size()).boxed()
               .flatMap(i -> IntStream.range(0, array[2 + i]).mapToObj(_ -> shapes.get(i)))
-              .map(Shape::allRotations)
               .toList()))
       .toList();
   IO.println(regions.stream().filter(r -> fit(r.grid, r.shapes, 0)).count());
